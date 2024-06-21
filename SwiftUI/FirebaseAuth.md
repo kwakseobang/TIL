@@ -12,3 +12,26 @@
 5. 승인 받으면 구글은 권한을 요청했던 서버에서 Access Token을 준다.
    - Access Token은 서버에서 관리
 6. 로그인 완료
+
+
+## Google 로그인 절차
+1. google 로그인 sdk 추가
+2. google 로그인
+   1. google configuration object 생성
+      1. firebase 클라이언트 id로 생성하는거 
+   2. google 로그인 진행(요청)
+      1. 완료 되면 access 토큰과 id token 발행
+      2. 그 정보를 토대로 2.3번 진행
+   3. credential(사용자 인증 정보) 생성
+3. Firebase 인증
+   1. credential로 firebase 로그인
+
+
+## Apple 로그인 절차
+1. developer 사이트 번들 추가
+2. capability 추가 - Sign in with Apple
+3. Apple 로그인
+   1. 로그인 요청 시 nonce 생성하여 요청
+   2. credential(사용자 인증 정보) 생성
+4. Firebase 인증
+   1. credential로 firebase 로그인

@@ -1,6 +1,6 @@
 + 공통된 스타일의 버튼이 존재할 경우 따로 button 스타일 파일을 만들어서 이용한다.
 
-```
+```swift
 struct LoginBtnStyle: ButtonStyle {
     let textColor: Color
     let borderColor: Color

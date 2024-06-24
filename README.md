@@ -7,3 +7,6 @@
   - 구조체와 클래스 알아보기
   - ARC 알아보기
   - 순환참조 및 약한 참조, 강한 참조 알아보기
+- 2024.6.24(월)
+  - 옵셔널 정리, 추후 추가 예정
+  - UIKit DiffableDataSource 및 UICollectionViewCompositionalLayout 정리

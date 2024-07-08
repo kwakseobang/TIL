@@ -10,3 +10,5 @@
 - 2024.6.24(월)
   - 옵셔널 정리, 추후 추가 예정
   - UIKit DiffableDataSource 및 UICollectionViewCompositionalLayout 정리
+- 2024.7.8(월)
+  - MVVM 디자인 패턴과 MVC 디자인 패턴 알아보기

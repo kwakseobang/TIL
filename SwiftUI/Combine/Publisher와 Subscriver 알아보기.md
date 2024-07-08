@@ -65,3 +65,8 @@ Publisher와 Subscriber 중간에 이벤트 관리자를 두어 처리한다.
    - Publisher에 sink 메소드가 내장 되어있다.
   2. Assign
    - 지정된 Key path로 값을 프로퍼티에 할당하는 Subscriber
+
+
+
+## 참고자료
+- 패스트캠퍼스 ios 강의자료

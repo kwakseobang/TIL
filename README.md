@@ -1,5 +1,7 @@
 # TIL
 전설의 시작..
+- 7월 14일뷰터 규칙 추가
+  - 당일 프로젝트 하면서 배운 공부는 당일 공부 + 2~3일 있다가 TIL 작성하면서 다시 공부
 
 -  2024.3.29.(금) ~
   
@@ -12,3 +14,5 @@
   - UIKit DiffableDataSource 및 UICollectionViewCompositionalLayout 정리
 - 2024.7.8(월)
   - MVVM 디자인 패턴과 MVC 디자인 패턴 알아보기
+- 2024.7.13(토)
+  - 비동기와 동기

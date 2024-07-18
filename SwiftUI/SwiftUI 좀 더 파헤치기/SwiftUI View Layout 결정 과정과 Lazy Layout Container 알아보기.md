@@ -15,3 +15,8 @@
 - Item을 재사용
 - LazyHstack, LazyVstack
 - LazyHGrid, LazyVGrid
+
+
+
+## layout 중립
+- body를 가지고 있는 뷰는 레이아웃 중립이다. (바디 뷰와 동일한 크기를 갖는다)

@@ -24,3 +24,5 @@
     - combine
 - 2024.7.18.(목)
   - [git 공부](https://github.com/kwakseobang/TIL/blob/63d49d76b788007453948e597ec42ca4be1b9983/20240718.md)
+- 2024.7. 19.(금)
+  - [git 추가 공부 & github 사용법 및 협업 방법](https://github.com/kwakseobang/TIL/blob/48ad6a2d667e3cd4569fe00ab61270a5f452ca16/20240719.md)

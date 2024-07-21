@@ -27,6 +27,8 @@ divide(a: 100) { () in
 
 - @escaping
   - 인자값으로 전달된 클로저를 저장해 두었다가, 나중에 다른 곳에서도 실행 할수록 허용해주는 속성.
+  -  클로저가 함수의 인자로 전달됐을 때, 함수의 실행이 종료된 후 실행되는 클로저 입니다.
+  -  보통 클로저가 다른 변수에 저장되어 나중에 실행되거나 비동기로 실행될 때 escaping 클로저가 사용됩니다.
 ~~~ swift
 func callback(fn: () -> Void ) {
     fn()
@@ -64,3 +66,4 @@ callback {
 
 ## 참고 자료
 - 꼼꼼한 재은씨의 스위프트 문법편
+- https://jusung.github.io/Escaping-Closure/

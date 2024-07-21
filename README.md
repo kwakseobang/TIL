@@ -27,3 +27,5 @@
 - 2024.7. 19.(금)
   - [git 추가 공부 & github 사용법 및 협업 방법](https://github.com/kwakseobang/TIL/blob/48ad6a2d667e3cd4569fe00ab61270a5f452ca16/20240719.md)
   - [OOP 개념 알아보기](https://github.com/kwakseobang/TIL/blob/95e76ffd3fd79dba82952902aebca19a6972cb5e/20240719_2.md)
+- 2024.7.21(일)
+  - [iOS 운영체제 구조 및 OS 기초 지식 알아보기](https://github.com/kwakseobang/TIL/blob/dd7d40f312c4b096b5aa0f01cafd7ca48a48acac/20220721.md)

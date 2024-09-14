@@ -29,3 +29,5 @@
   - [OOP 개념 알아보기](https://github.com/kwakseobang/TIL/blob/95e76ffd3fd79dba82952902aebca19a6972cb5e/20240719_2.md)
 - 2024.7.21(일)
   - [iOS 운영체제 구조 및 OS 기초 지식 알아보기](https://github.com/kwakseobang/TIL/blob/dd7d40f312c4b096b5aa0f01cafd7ca48a48acac/20220721.md)
+- 2024.9.14(토)
+  - [웹프로그래밍 2주차 수업 정리](https://github.com/kwakseobang/TIL/blob/ca5df1dd7d7ad9cbcd2eaa6918b2339d981dc1c6/Web/20240914.md)

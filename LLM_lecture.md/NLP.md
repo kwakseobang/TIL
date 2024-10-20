@@ -57,6 +57,11 @@
 - Language Modeling
   - 자연어 처리(NLP)에서 컴퓨터가 언어의 확률적 구조를 학습하여 문장을 이해하고 생성할 수 있도록 하는 기술입니
   - 언어 모델링의 주된 목표는 **주어진 단어들을 기반으로 다음에 나올 단어의 확률을 예측하는 것**
+  - LLM Histroy
+    - NLM-PLM-LLM
+      - 신경망을 사용해 언어 모델링
+      - 신경망을 사전학습 후 특정 작업에 따라 미세조정
+      - PLM에서 모델 & 데이터 크기를 확장
 - RNN(Recurrent Neural Networks):
   -  순차 데이터를 다루기 위해 순환 신경망을 사용하여 문맥을 기억하고 다음 단어를 예측하는 방식입니다.
   -  이전의 입력 데이터를 기억하고 이를 활용해 현재의 출력에 반영하는 특징을 가지고 있어, 시간이나 순서에 따라 변하는 데이터를 처리할 수 있습니다.
@@ -95,3 +100,42 @@
 # GPT
 - Token Embedding
   - Token Embedding은 자연어에서 각 단어를 벡터로 변환하는 과정입니다.  
+
+
+
+## Training Process of LLMs
+- Pre-trainnig -> Adaptation Tuning -> Utilization
+
+### Pre-trainnig
+- Data
+- Architecture
+- Pre-training Tasks
+  - LLM을 학습하기 위해 langueage modeling task가 가장 많이 사용됨
+- Optimization and Scalable Training Techniques
+
+### Adaptation Tuning
+- 다양한 task에서 PLM을 효과적으로 더 잘 사용하기 위해 adaptation 시키는 작업
+- Instruction Tuning
+  - 지시문 & input text와 output text의 pair 데이터 셋을 통해 지도 학습 시키는것
+  - 등장배경
+    - 사용자의 의도에 맞는 답변 출력
+    - zero-shot 성능 향상
+- Alinment Tuning
+  - 부적절한 답변 등을 방지하기 위해 
+  - RLHF
+    1. SFT
+    2. Reward Model Training
+    3. RL Fine-tuning
+  - 강화학습을 이용해 인간의 피드백으로부터 LLM을 최적화하는 방법
+- Parameter Efiicient Model Adaptaion
+  - 많은 비용이 듦
+  - Adapter Tuning
+
+
+### Utilization
+- Prompt Engineering
+  - LLM이 생성하는 결과물의 품질을 높일 수 있는 입력값들의 조합을 찾는 작업
+  - zero-shot
+  - One/Few-shot
+  - Chain-of-Though 
+    - 답변에 도달하는 과정을 학습시키기 위해 목적으로 본 질문 전에 미리 태스크와 추론 과정을 포함한 답변 예제를 제공하는 것.
